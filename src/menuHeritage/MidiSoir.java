@@ -1,7 +1,5 @@
 package menuHeritage;
 
-import java.util.*;
-
 /**
  * 
  */
@@ -28,7 +26,7 @@ public class MidiSoir extends Menu {
      */
     public void afficheMenuMidiSoir() {
         // TODO implement here
-        
+    	System.out.println("Au menu de votre repas : " + getBoisson() + getFeculent() + getFruit() + getProduitLaitier() + legume + proteine);
     }
 
 	public String getLegume() {

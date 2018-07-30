@@ -1,7 +1,5 @@
 package menuHeritage;
 
-import java.util.*;
-
 /**
  * 
  */
@@ -23,7 +21,7 @@ public class Matin extends Menu {
      */
     public void afficheMenuMatin() {
         // TODO implement here
-        
+        System.out.println("Au menu de votre petit-déjeuner : " + getBoisson() + getFeculent() + getFruit() + getProduitLaitier() + getCereale());
     }
 
 	public String getCereale() {

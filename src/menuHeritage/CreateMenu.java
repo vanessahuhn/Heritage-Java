@@ -1,7 +1,5 @@
 package menuHeritage;
 
-import java.util.*;
-
 /**
  * 
  */
@@ -16,8 +14,11 @@ public class CreateMenu {
     public static void main(String[] args) {
     	//création des instances
     	Matin menuMatin = new Matin();
-    	MidiSoir MenuMidi = new MidiSoir();
-    	MidiSoir MenuSoir = new MidiSoir();
+    	MidiSoir menuMidi = new MidiSoir();
+    	MidiSoir menuSoir = new MidiSoir();
+    	menuMatin.afficheMenuMatin();
+    	menuMidi.afficheMenuMidiSoir();
+    	menuSoir.afficheMenuMidiSoir();
     }
 
 }

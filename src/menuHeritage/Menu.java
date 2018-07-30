@@ -1,7 +1,5 @@
 package menuHeritage;
 
-import java.util.*;
-
 /**
  * 
  */
@@ -32,8 +30,8 @@ public class Menu {
      * 
      */
     public String produitLaitier;
-
-	public String getBoisson() {
+    
+    public String getBoisson() {
 		return boisson;
 	}
 
