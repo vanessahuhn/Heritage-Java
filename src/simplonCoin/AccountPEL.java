@@ -14,6 +14,14 @@ public class AccountPEL extends Account {
     /**
      * 
      */
-    public double tauxEpargne;
+    public double tauxEpargne = 0.035;
+
+	public double getTauxEpargne() {
+		return tauxEpargne;
+	}
+
+	public void setTauxEpargne(double tauxEpargne) {
+		this.tauxEpargne = tauxEpargne;
+	}
 
 }
