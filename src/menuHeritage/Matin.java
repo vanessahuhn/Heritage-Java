@@ -26,4 +26,12 @@ public class Matin extends Menu {
         
     }
 
+	public String getCereale() {
+		return cereale;
+	}
+
+	public void setCereale(String cereale) {
+		this.cereale = cereale;
+	}
+
 }

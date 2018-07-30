@@ -31,4 +31,20 @@ public class MidiSoir extends Menu {
         
     }
 
+	public String getLegume() {
+		return legume;
+	}
+
+	public void setLegume(String legume) {
+		this.legume = legume;
+	}
+
+	public String getProteine() {
+		return proteine;
+	}
+
+	public void setProteine(String proteine) {
+		this.proteine = proteine;
+	}
+
 }
