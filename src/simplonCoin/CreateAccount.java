@@ -22,7 +22,7 @@ public class CreateAccount {
     	System.out.println("Solde du compte de Pierre avant le virement: " + pierreAccountMain.getSolde());
     	System.out.println("Solde du compte de Aurelia avant le virement: " + aureliaAccountMain.getSolde());
     	
-    	pierreAccountMain.virement(25.0, aureliaAccountMain, pierreAccountMain);
+    	pierreAccountMain.virement(25.0, aureliaAccountMain);
     	
     	System.out.println("Solde du compte de Pierre après le virement: " + pierreAccountMain.getSolde());
     	System.out.println("Solde du compte de Aurelia après le virement: " + aureliaAccountMain.getSolde());

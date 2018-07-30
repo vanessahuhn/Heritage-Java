@@ -14,10 +14,10 @@ public class AccountMain extends Account {
     /**
      * 
      */
-    public void virement(double sommeViree, AccountMain compteDebite, AccountMain compteCredite) {
+    public void virement(double sommeViree,AccountMain compteDebite) {
         // TODO implement here
     	compteDebite.setSolde(compteDebite.getSolde() - sommeViree);
-    	compteCredite.setSolde(compteCredite.getSolde() + sommeViree);
+    	solde = solde + sommeViree;
     }
 
 }
